@@ -1,0 +1,15 @@
+{% extends 'layouts/base.html' %}
+
+
+{% block content %}
+<h1>Projectos</h1>
+
+{% for p in proyectos %}
+
+<h5>Este es el nombre del proyecto:</h5>
+<p>{{p.nombre}}</p>
+
+
+{% endfor %}
+{% endblock %}
+
